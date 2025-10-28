@@ -1,3 +1,11 @@
 const login = (user) => {
     return user;
 }
+
+const signUp = (user) => {
+    if (user.name === 'Maral') {
+        return 'Now you are in';
+    } else {
+        return "the username doesn't exist'
+    }
+};
