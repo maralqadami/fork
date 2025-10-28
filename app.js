@@ -9,3 +9,8 @@ const signUp = (user) => {
         return "the username doesn't exist'
     }
 };
+
+
+const setComment = comment => {
+    return comment 
+};
